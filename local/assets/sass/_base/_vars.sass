@@ -1,0 +1,80 @@
+
+//----------------------fonts---------------------
+$fonts: 'Montserrat', sans-serif
+$label: 'IBM Plex Sans', sans-serif;
+//---------------------end-fonts---------------------
+
+//----------------------color---------------------
+$accent: #f6533e
+$text: #303030
+$white: #ffffff
+$green: #007e8a
+$bg: #fbfbfb
+//---------------------end-color---------------------
+
+body
+	overflow-x: hidden
+	position: relative
+	min-width: 320px
+	font-family: $fonts
+	font-size: 16px
+	color: $text
+	line-height: 1.8
+	font-weight: 400
+	min-height: 100vh
+	display: flex
+	flex-direction: column
+	justify-content: space-between
+
+	+r(1230)
+		font-size: 14px
+
+::selection
+	background-color: $accent
+	color: #fff
+	
+h1, h2, h3, h4, h5, h6
+	font-weight: 700
+	line-height: 1.2
+	margin: 0
+	padding: 0
+
+h2
+	font-size: 24px
+	font-weight: 800
+	text-transform: uppercase
+
+	+r(767)
+		font-size: 22px
+
+ul
+	margin: 0
+	padding: 0
+	list-style-type: none
+
+b, strong
+	font-weight: 700
+
+p
+	margin: 0
+	padding: 0
+
+a,
+button
+	transition: all .6s
+	cursor: pointer
+
+	&:focus,
+	&:hover,
+		outline: none
+		text-decoration: none
+		border: none
+		outline: none
+
+
+a
+	color: $text
+
+	&:hover,
+	&:focus
+		color: $accent

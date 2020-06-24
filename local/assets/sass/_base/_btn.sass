@@ -1,0 +1,29 @@
+.btn
+	position: relative
+	display: flex
+	justify-content: center
+	align-items: center
+	height: 55px
+	font-size: 18px
+	background-color: $accent
+	color: $white
+	font-weight: 700
+	border-radius: 5px
+	letter-spacing: 1px
+	max-width: fit-content
+	padding: 0 90px
+	border: 1px solid $accent
+
+	&:hover,
+	&:focus
+		border: 1px solid $accent
+		background: $accent
+		color: #fff
+		box-shadow: 0 0 25px 0 rgba($accent, 1)
+	
+	+r(767)
+		// height: 45px
+		font-size: 16px
+
+	+r(576)
+		padding: 0 40px
