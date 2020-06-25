@@ -17,8 +17,8 @@
 					<?php the_field('tel', 'option'); ?>
 				</a>
 				<div class="header__info_lang">
-					<a href="#">En</a>
-					<a href="#" class="active">Ru</a>
+					<a href="<?php echo get_home_url(); ?>/en/">En</a>
+					<a href="<?php echo get_home_url(); ?>">Ru</a>
 				</div>
 			</div>
 
@@ -103,7 +103,7 @@
 				</div>
 			</div>
 
-			<?php echo do_shortcode('[contact-form-7 id="62" title="Форма на РУ"]'); ?>
+			<?php the_field('form'); ?>
 
 		</div>
 	</section>

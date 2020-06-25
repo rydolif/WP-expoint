@@ -1,4 +1,12 @@
 $(function() {
+//-------------------------------активна ссилка на якій знаходишся для меню---------------------------------------
+  $('.header__info_lang a').each(function () {
+    var location = window.location.href;
+    var link = this.href; 
+    if(location == link) {
+        $(this).addClass('active');
+    }
+  });
 
 //-------------------------скорость якоря---------------------------------------
   $(".click").on("click","a", function (event) {
