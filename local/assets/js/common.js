@@ -25,6 +25,10 @@ $(function() {
       el: '.services__pagination',
       clickable: true,
     },
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false,
+    },
     loop: true,
     breakpoints: {
       992: {

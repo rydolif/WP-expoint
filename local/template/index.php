@@ -104,32 +104,6 @@
 			</div>
 
 			<?php echo do_shortcode('[contact-form-7 id="62" title="Форма на РУ"]'); ?>
-<!-- 
-			<form class="contacts__form">
-				<div class="contacts__form_col">
-
-					<div class="contacts__form_line">
-						<input type="text" name="name" placeholder="Ваше имя">
-					</div>
-
-					<div class="contacts__form_line">
-						<input type="text" name="name" placeholder="Ваш телефон">
-					</div>
-
-					<div class="contacts__form_line">
-						<textarea name="text" placeholder="Ваше сообщение""></textarea>
-					</div>
-
-				</div>
-
-				<div class="contacts__form_btn">
-					<p>
-						Нажимая кнопку “Отправить” , я подтверждаю, что ознакомлен с Политикой конфиденциальности и 
-						даю согласие на обработку моих персональных данных
-					</p>
-					<button class="btn">Отправить</button>
-				</div>
-			</form> -->
 
 		</div>
 	</section>
